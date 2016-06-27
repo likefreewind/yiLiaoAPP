@@ -1,0 +1,12 @@
+      <div class="m-lifenav" spa-widget="scroll" data-scroll-id="lifenav-scroll">
+        <ul>
+          <li>nav01</li>
+          <li>nav02</li>
+          <li>nav03</li>
+          <li>nav04</li>
+          <li>nav05</li>
+          <li>nav06</li>
+          <li>nav07</li>
+          <li>nav08</li>
+        </ul>
+      </div>

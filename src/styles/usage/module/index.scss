@@ -1,0 +1,226 @@
+.m-index{
+	height:100%;
+	width:100%;
+	@include flexbox();
+	@include flex-direction(column);
+	position: relative;
+	background: #e5e5e5;
+	.l-container{
+	    @include flex(1);
+        width: 100%;
+        position: relative;
+        overflow: hidden;
+        .m-home{
+//          @include flexbox();
+//          @include flex-direction();
+            height: 100%;
+            position: relative;
+            width: 100%;
+            >*{
+                width: 100%;
+            }
+            .zhanwei{
+                width:100%;
+                height:.44rem;
+            }
+            header{
+                // background-image: url(../../../images/actionbarhome.9.png);
+                background:#a654fe;
+                width: 100%;
+                height: .44rem;
+                position: absolute;
+                left:0;
+                top:0;
+                z-index: 10000;
+                @include flexbox();
+                ul {
+                    width:100%;
+                    height:.44rem;
+                    @include flex(1);
+                    @include flexbox();
+                    
+                    li{
+                    @include flexbox();
+                    @include flex-direction();
+                    @include flex(1);
+                    @include align-items(center);
+                    @include justify-content(center);
+                    @include box-sizing(border-box);
+                    font-weight: normal;
+                    height:100%;
+                    width:10%;
+                    color:white;
+                    &:nth-child(2){
+                        padding-left:30%;
+                        padding-right:20%;
+                    }
+                    img{
+                        width:.44rem;
+                        hieght:100%;
+                    }
+                }
+            }
+                ul:nth-child(2){
+                    @include flex(1);
+                    @include flexbox();
+                    @include justify-content(center);
+                    @include align-items(center);
+                        height: .25rem;
+                    }  
+            }        
+            section{
+//              @include flex(1);
+                width:100%;
+                height:100%;
+                background:#e5e5e5;
+                img{
+                    width:100%;
+                    height:100%;
+                }
+                @include flex(1);
+                width: 100%;
+                nav{
+                    @include flexbox();
+                    width:100%;
+                    height:100%;
+                    margin-top:5%;
+                    background: white;
+                    ul{
+                          @include flex(1);
+                          @include flexbox();
+                          @include align-items(center);
+                          @include justify-content(center);
+                          @include box-sizing(border-box);
+                          li{
+                              text-align: center;
+                          }
+                    }
+                }
+                .homelei{
+                     @include flexbox(); 
+                    margin-top:.05rem;
+                    width:100%;
+                    height: 1.1 rem;
+                    background: white;
+                    ul{
+                        @include flex(1);
+                        @include flexbox();
+                        height:100%;
+                        li{
+                            @include flex(1);
+                            @include box-sizing(border-box);
+                            height:100%;
+                            padding:4% 8%;
+                            .pavilionbox{
+                                width:100%;
+                                height:100%;
+                                border-right:1px solid #e7e7e7;
+                                &:last-child{
+                                    border:none;
+                                }
+                                img{
+                                    width:100%;
+                                    height:100%;
+                                }
+                            }   
+                        }
+                    }
+                }
+                .choose{
+                    @include flexbox();
+                    height:100%;
+                    background: white;
+                    ul{
+                        height:100%;
+                        @include flexbox();
+                        @include flex(1);
+                        li{
+                            @include flex(1);
+                            @include flex-direction();
+                            @include box-sizing(border-box);
+                            padding:2% 4%;
+                      
+                            i{
+                                img{
+                                    width:70%;
+                                    height:70%;
+                                }
+                            }
+                            b{
+                                width:100%;
+                                height:100%;
+                                text-align: center;
+                            }
+                        }
+                    }
+                }
+                .shizhuang{
+                    img{
+                        width:100%;
+                        height:100%;
+                        
+                    }
+                }   
+            }    
+            }
+        }
+	}
+	
+	footer{
+	    height: .45rem;
+	    background: transparent;
+        ul {
+            @include flexbox();
+            @include box-sizing(border-box);
+            @include border(1px 0 0 0, #d9d9d9);
+            width: 100%;
+            height: 100%;
+            li {
+              @include flex(1);
+              @include flexbox();
+              @include flex-direction(column);
+              @include align-items(center);
+              @include justify-content(center);
+              @include box-sizing(border-box);
+              &:nth-child(1){
+                  .footerbox{
+                        background:#a06ce5;
+                  }
+              }
+              
+              
+            .footerbox {
+                z-index: 10000;
+                @include flex(1);
+                @include flexbox();
+                @include flex-direction(column);
+                @include align-items(center);
+                @include justify-content(center);
+                background: black;
+                width: 40%;
+                height: 100%;
+                -webkit-border-radius: 25% 25% 25% 25%;
+                -moz-border-radius: 25% 25% 25% 25%;
+                border-radius: 25% 25% 25% 25%;
+                height:.44rem;
+                padding-top: .04rem;
+                &.active i,
+                &.active b {
+                    color: white;
+                }
+                i, b {
+                    display: block;
+                    color: white;
+                }
+                i {
+                    font-size: .2rem;
+                    line-height: .2rem;
+                }
+                b {
+                    font-weight: normal;
+                    font-size: .12rem;
+                }
+            }
+	    }
+    }
+}

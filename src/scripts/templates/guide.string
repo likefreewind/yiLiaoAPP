@@ -1,0 +1,19 @@
+<div class="swiper-container" id="guide-swiper">
+  <div class="swiper-wrapper">
+    <div class="swiper-slide">
+      <img src="/yiLiao/images/item_guide_one.png">
+    </div>
+    <div class="swiper-slide">
+      <img src="/yiLiao/images/item_guide_two.png">
+    </div>
+    <div class="swiper-slide">
+      <img src="/yiLiao/images/item_guide_three.png">
+    </div>
+    <div class="swiper-slide">
+      <img src="/yiLiao/images/item_guide_four.png">
+    </div>
+    <div class="swiper-slide" action-type="goto.index">
+      <img src="/yiLiao/images/item_guide_five.png">
+    </div>
+  </div>
+</div>

@@ -1,0 +1,53 @@
+<div class="m-gongying">
+	<header>
+		供应链
+	</header>
+	<nav>
+		<ul>
+			<li>纺织加工配套</li>
+			<li>服装加工配套</li>
+		</ul>
+	</nav>
+	<section>
+		<ul>
+			<li>
+				<i><img src="images/home_voice.png"/></i>
+				<b>印花</b>
+			</li>
+			<li>
+				<i><img src="images/home_voice.png"/></i>
+				<b>复合</b>
+			</li>
+		</ul>
+			<ul>
+			<li>
+				<i><img src="images/home_voice.png"/></i>
+				<b>印花</b>
+			</li>
+			<li>
+				<i><img src="images/home_voice.png"/></i>
+				<b>复合</b>
+			</li>
+		</ul>
+			<ul>
+			<li>
+				<i><img src="images/home_voice.png"/></i>
+				<b>印花</b>
+			</li>
+			<li>
+				<i><img src="images/home_voice.png"/></i>
+				<b>复合</b>
+			</li>
+		</ul>
+			<ul>
+			<li>
+				<i><img src="images/home_voice.png"/></i>
+				<b>印花</b>
+			</li>
+			<li>
+				<i><img src="images/home_voice.png"/></i>
+				<b>复合</b>
+			</li>
+		</ul>
+	</section>
+</div>

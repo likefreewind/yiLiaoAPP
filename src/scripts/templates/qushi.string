@@ -1,0 +1,24 @@
+
+
+<div class="m-qushi">
+	<header>
+		<div class="m-header">
+			<input type="text" id="searchTxt" placeholder="搜搜咨询/趋势等···" />
+			<i class="iconfont icon-iconfontsaoyisao1 "></i>
+		</div>
+	</header>
+	<nav>
+		<ul>
+			<li>新料开发</li>
+			<li>流行趋势</li>
+			<li>产业风标</li>
+		</ul>
+	</nav>
+	<section>
+		<ul>
+			<li></li>
+			<li></li>
+			<li></li>
+		</ul>
+	</section>
+</div>

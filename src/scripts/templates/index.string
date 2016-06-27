@@ -1,0 +1,155 @@
+<div class="m-index">
+	<div class="l-container">
+    	<div class="m-home">
+    	<div class="zhanwei">
+    	
+    	</div>
+			<header>
+				<ul>
+					<li>
+						<i class="iconfont icon-iconfontsaoyisao1 "></i>
+					</li>
+					<li>
+						<img src="images/yiLiaoicon.jpg" />
+					</li>
+					<li>
+						<i class="iconfont icon-xinxi "></i>
+					</li>
+					<li>
+						<i class="iconfont icon-sousuo "></i>
+					</li>
+				</ul>
+			</header>
+			<section  spa-widget="scroll">
+			<div>
+				<div class="banner">
+				    <div class="swiper-container">
+                      <div class="swiper-wrapper">
+                        <div class="swiper-slide"><img src="images/lunbo1.jpg"/></div>
+                        <div class="swiper-slide"><img src="images/lunbo2.jpg"/></div>
+                        <div class="swiper-slide"><img src="images/lunbo3.jpg"/></div>
+                      </div>
+                      <div class="swiper-pagination"></div>
+                    </div>
+				</div>
+				<nav>
+					<ul>
+						<li class="active">	
+							<i><img src="images/home_ptl.png"></i>
+							<b>PTL新料</b>
+						</li>
+						<li class="active">	
+							<i><img src="images/home_free.png"></i>
+							<b>免费版布</b>
+						</li>
+						<li class="active">	
+							<i><img src="images/home_chose.png"></i>
+							<b>买手精选</b>
+						</li>
+						<li class="active">	
+							<i><img src="images/home_classic.png"></i>
+							<b>经典优价</b>
+						</li>
+					
+					</ul>
+				</nav>		
+				<div class="homelei">
+					<ul>
+						<li>
+							<div class="pavilionbox" >
+								<img src="images/home_pavilion_01.png" />
+							</div>	
+						</li>
+						<li>
+							<div class="pavilionbox" >
+								<img src="images/home_pavilion_02.png" />
+							</div>
+						</li>
+						<li>
+							<div class="pavilionbox" >
+								<img src="images/home_pavilion_03.png" />
+							</div>
+						</li>
+					</ul>
+				</div>
+				<div class="choose">
+					<ul>
+						<li>
+							<i><img src="images/home_girl.png"/></i>	
+							<b>靓女</b>
+						</li>
+						<li>
+							<i><img src="images/home_house.png"/></i>	
+							<b>家居</b>
+						</li>
+						<li>
+							<i><img src="images/home_leisure.png"/></i>	
+							<b>休闲</b>
+						</li>
+						<li>
+							<i><img src="images/home_men.png"/></i>	
+							<b>男士</b>
+						</li>
+					</ul>
+				</div>
+				<div class="choose">
+					<ul>
+						<li>
+							<i><img src="images/home_girl.png"/></i>	
+							<b>靓女</b>
+						</li>
+						<li>
+							<i><img src="images/home_house.png"/></i>	
+							<b>家居</b>
+						</li>
+						<li>
+							<i><img src="images/home_leisure.png"/></i>	
+							<b>休闲</b>
+						</li>
+						<li>
+							<i><img src="images/home_men.png"/></i>	
+							<b>男士</b>
+						</li>
+					</ul>
+				</div>
+				<div class="shizhuang">
+					<img src="images/shizhuang1.jpg" />
+					<img src="images/shizhuang2.jpg" />
+					<img src="images/shizhuang1.jpg" />
+					<img src="images/shizhuang2.jpg" />
+					<img src="images/shizhuang1.jpg" />
+					<img src="images/shizhuang2.jpg" />
+				</div>
+				</div>
+			</section>
+		</div>
+	</div>
+	<footer>
+		<ul>
+			<li class="active" action-type="switch.tabs" data-tag="home">
+				<div class="footerbox">
+				<i class="iconfont icon-gerenzhongxinfuben01"></i>
+				<b>首页</b>
+				</div>
+			</li>
+			<li action-type="switch.tabs" data-tag="qushi">
+			<div class="footerbox">
+				<i class="iconfont icon-qushi"></i>
+				<b>趋势</b>
+				</div>
+			</li>
+			<li action-type="switch.tabs" data-tag="gongying">
+			<div class="footerbox">
+				<i class="iconfont icon-gongying"></i>
+				<b>供应</b>
+				</div>
+			</li>
+			<li action-type="switch.tabs" data-tag="my">
+			<div class="footerbox">
+				<i class="iconfont icon-wo"></i>
+				<b>我</b>
+				</div>
+			</li>
+		</ul>
+	</footer>
+</div>
